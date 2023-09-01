@@ -9,6 +9,7 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import BookMarkButton from "./BookMarkButton";
 
 
+
 function Post({ user, postImage, likes, timestamp }) {
   return (
     <div className="post">
@@ -19,7 +20,7 @@ function Post({ user, postImage, likes, timestamp }) {
           </Avatar>{" "}
           {user} • <span>{timestamp}</span>
         </div>
-        <MoreHorizIcon />
+        <MoreHorizIcon style={{cursor:"pointer"}}/>
       </div>
       <div className="post__image">
         <img src={postImage} alt="Post Image" />
@@ -35,8 +36,9 @@ function Post({ user, postImage, likes, timestamp }) {
             <BookMarkButton className="postIcon" />
           </div>
         </div>
-        Liked by {likes} people.
+        {likes} likes
       </div>
+      <p className="suggestions__parag">About • Help • Press • API • Jobs • Privacy • Terms • Jobs • Privacy • Terms</p>
     </div>
   );
 }

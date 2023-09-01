@@ -1,7 +1,7 @@
 .suggestions {
     margin-top: 30px;
     margin-right: 20px;
-    margin-left: 40px;
+    margin-left: 80px;
   }
   
 .suggestions__title {
@@ -47,3 +47,9 @@
     font-weight: 600;
     font-size: 14px;
 }
+.suggestions__parag{
+    margin-top: 25px;
+    font-size: 10px;
+    color: #817b7b;
+}
+

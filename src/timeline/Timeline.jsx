@@ -109,6 +109,7 @@ function Timeline() {
             </div>
           </div>
         </div>
+        <div className="timeline__middle"></div>
         <div className="timeline__right">
             <Suggestions/>
         </div>

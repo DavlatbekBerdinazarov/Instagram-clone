@@ -9,6 +9,8 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import MenuIcon from "@mui/icons-material/Menu";
 
+import InstagramIcon from '@mui/icons-material/Instagram';
+
 // without outlined
 import HomeIcon from "@mui/icons-material/Home";
 import SearchIcon from "@mui/icons-material/Search";
@@ -17,7 +19,9 @@ import SlideshowIcon from "@mui/icons-material/Slideshow";
 import ChatIcon from "@mui/icons-material/Chat";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
+
 function Sidenav() {
+
   return (
     <div className="sidenav">
       <img
@@ -25,33 +29,34 @@ function Sidenav() {
         src="https://www.pngkey.com/png/full/828-8286178_mackeys-work-needs-no-elaborate-presentation-or-distracting.png"
         alt="Instagram Logo"
       />
+      <InstagramIcon style={{display:"none"}}/>
       <div className="sidenav__buttons">
         <button className="sidenav__button">
-          <HomeIcon/>
+          <HomeIcon style={{fontSize:"27px"}}/>
           <span>Home</span>
         </button>
         <button className="sidenav__button">
-          <SearchOutlinedIcon />
+          <SearchOutlinedIcon style={{fontSize:"27px"}} />
           <span>Search</span>
         </button>
         <button className="sidenav__button">
-          <ExploreOutlinedIcon />
+          <ExploreOutlinedIcon style={{fontSize:"27px"}} />
           <span>Explore</span>
         </button>
         <button className="sidenav__button">
-          <SlideshowOutlinedIcon />
+          <SlideshowOutlinedIcon style={{fontSize:"27px"}} />
           <span>Reels</span>
         </button>
         <button className="sidenav__button">
-          <ChatOutlinedIcon />
+          <ChatOutlinedIcon style={{fontSize:"27px"}}/>
           <span>Messages</span>
         </button>
         <button className="sidenav__button">
-          <FavoriteBorderOutlinedIcon />
+          <FavoriteBorderOutlinedIcon style={{fontSize:"27px"}} />
           <span>Notifications</span>
         </button>
         <button className="sidenav__button">
-          <AddCircleOutlineIcon />
+          <AddCircleOutlineIcon style={{fontSize:"27px"}} />
           <span>Create</span>
         </button>
         <button className="sidenav__button">

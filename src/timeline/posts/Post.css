@@ -49,3 +49,9 @@
 .postIcon :hover {
     cursor: pointer;
 }
+
+.suggestions__parag{
+    margin-top: 25px;
+    font-size: 10px;
+    color: #817b7b;
+}

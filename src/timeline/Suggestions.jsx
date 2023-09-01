@@ -59,6 +59,7 @@ function Suggestions() {
           <button className="follow__button">Follow</button>
         </div>
       </div>
+      <p className="suggestions__parag">About • Help • Press • API • Jobs • Privacy • Terms • Jobs • Privacy • Terms</p>
     </div>
   );
 }

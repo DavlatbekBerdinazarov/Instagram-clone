@@ -5,10 +5,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: 11;
     border-right: 0.4px solid rgb(80, 80, 80);
     width: 240px;
     cursor: pointer;
+    background-color: #000;
 }
   
 .sidenav__logo {
@@ -51,4 +52,62 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+.icons{
+    font-size: 26px;
+}
+
+@media (max-width: 1265px){
+    .sidenav__button span{
+        display: none;
+    }
+    .sidenav{
+        width: 100px;
+    }
+    .sidenav__logo{
+        display: none;
+    }
+    .logo{
+        display: inline;
+    }
+}
+
+@media (max-width:767px) {
+    .sidenav{
+        display: none;
+        /* position: fixed; */
+        /* bottom: 0px;
+        left: 0px;
+        height: 6vh;
+        display: flex;
+        flex-direction: row;
+        z-index: 11;
+        border-top: 0.4px solid rgb(80, 80, 80);
+        max-width: 100%;
+        cursor: pointer;
+        background-color: #000; */
+    }
+    .sidenav__buttons {
+        display: none;
+        bottom: 0;
+        /* display: flex; */
+        flex-direction: row;
+    }
+    .sidenav__button {
+        display: none;
+        /* display: flex; */
+        font-display: row;
+        align-items: center;
+        color: white;
+        background: 0;
+        border: 0;
+        margin: 5px ;
+        padding: 10px ;
+        border-radius: 5px;
+        width: 95%;
+    }
+    .sidenav__more{
+        display: none;
+    }
 }
