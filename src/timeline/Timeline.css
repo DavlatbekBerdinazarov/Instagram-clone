@@ -1,0 +1,40 @@
+.timeline {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline__left {
+    flex: 0.7;
+}
+
+.timeline__right {
+    flex: 0.25;
+}
+
+.timeline__container{
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.story__header{
+    margin: 18px;
+    text-align: center;
+}
+.story__header h5{
+    padding: 4px 5px;
+    width: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.128);
+    border-radius: 9px;
+    box-shadow: 5px 4px 42px 15px rgba(34, 60, 80, 0.2);
+}
+.stories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1px;
+    width: 660px;
+    margin: auto;
+}
